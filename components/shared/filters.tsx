@@ -25,7 +25,7 @@ export const Filters: React.FC<Props> = ({ className }) => {
                     <Input type="number" min={100} max={1000} placeholder="1000" />
                 </div>
 
-                <RangeSlider min={0} max={100} step={1} value={[0, 100]} />
+                <RangeSlider min={0} max={1000} step={1} value={[0, 1000]} />
             </div>
         </div>
     );
