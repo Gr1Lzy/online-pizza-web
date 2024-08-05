@@ -3,6 +3,7 @@ import {Title} from "@/components/shared/title";
 import {FilterCheckbox} from "@/components/shared/filter-checkbox";
 import {Input} from "@/components/ui";
 import {RangeSlider} from "@/components/shared/range-slider";
+import {CheckboxFilterGroup} from "@/components/shared/checkbox-filters-group";
 
 interface Props {
     className?: string;
@@ -27,6 +28,58 @@ export const Filters: React.FC<Props> = ({ className }) => {
 
                 <RangeSlider min={0} max={1000} step={1} value={[0, 1000]} />
             </div>
+
+            <CheckboxFilterGroup
+                title="Ingridients"
+                className='mt-5'
+                limit={6}
+                defaultItems={[
+                    {
+                        text: 'Tomato', value: '1'
+                    },
+                    {
+                        text: 'Pepper', value: '2'
+                    },
+                    {
+                        text: 'Garlic', value: '3'
+                    },
+                    {
+                        text: 'Onion', value: '4'
+                    },
+                    {
+                        text: 'Cheese', value: '5'
+                    },
+                    {
+                        text: 'Mushrooms', value: '6'
+                    },
+                    {
+                        text: 'Olives', value: '7'
+                    }
+                ]}
+                items={[
+                    {
+                        text: 'Tomato', value: '1'
+                    },
+                    {
+                        text: 'Pepper', value: '2'
+                    },
+                    {
+                        text: 'Garlic', value: '3'
+                    },
+                    {
+                        text: 'Onion', value: '4'
+                    },
+                    {
+                        text: 'Cheese', value: '5'
+                    },
+                    {
+                        text: 'Mushrooms', value: '6'
+                    },
+                    {
+                        text: 'Olives', value: '7'
+                    }
+                ]}
+            />
         </div>
     );
 };
