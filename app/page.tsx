@@ -1,6 +1,6 @@
 import {Container, Filters, Title, TopBar} from "@/components/shared";
 import React from "react";
-import {ProductCart} from "@/components/shared/product-cart";
+import {ProductsGroupList} from "@/components/shared/products-group-list";
 
 export default function Home() {
   return <>
@@ -18,9 +18,16 @@ export default function Home() {
           <Filters />
         </div>
 
+        {/*LIST*/}
         <div className="flex-1">
           <div className="flex flex-col gap-16">
-            <ProductCart id={0} name={"Chicken Pizza"} price={25} imageUrl={'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75'}/>
+            <ProductsGroupList title="Pizzas" items={[{
+              id: 1,
+              imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+              name: 'Pepperoni Pizza',
+              price: 10.99,
+              items: [{ price: 10.99 }],
+            }]} categoryId={1} />
           </div>
 
         </div>
