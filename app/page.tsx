@@ -52,7 +52,7 @@ export default function Home() {
               },
             ]} categoryId={1} />
 
-            <ProductsGroupList title="Cocktails" items={[
+            <ProductsGroupList title="Combos" items={[
               {
                 id: 1,
                 imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
