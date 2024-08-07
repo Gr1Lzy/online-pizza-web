@@ -21,13 +21,67 @@ export default function Home() {
         {/*LIST*/}
         <div className="flex-1">
           <div className="flex flex-col gap-16">
-            <ProductsGroupList title="Pizzas" items={[{
-              id: 1,
-              imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
-              name: 'Pepperoni Pizza',
-              price: 10.99,
-              items: [{ price: 10.99 }],
-            }]} categoryId={1} />
+            <ProductsGroupList title="Pizzas" items={[
+              {
+                id: 1,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+              {
+                id: 2,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+              {
+                id: 3,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+              {
+                id: 4,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+            ]} categoryId={1} />
+
+            <ProductsGroupList title="Cocktails" items={[
+              {
+                id: 1,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+              {
+                id: 2,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+              {
+                id: 3,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+              {
+                id: 4,
+                imageUrl: 'https://dominos.ua/_next/image/?url=https%3A%2F%2Fmedia-v3.dominos.ua%2FProducts%2FPitsa%2FPitsy%2FPitsa%20z%20vialenymy%20tomatamy%2Fdriedtomato-fullpizza.webp&w=600&q=75',
+                name: 'Pepperoni Pizza',
+                price: 10.99,
+                items: [{ price: 10.99 }],
+              },
+            ]} categoryId={2} />
           </div>
 
         </div>
